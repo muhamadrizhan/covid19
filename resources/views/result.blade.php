@@ -1,11 +1,13 @@
-@extends('layouts.app')
+@extends('layouts.template')
 
 @section('content')
+<div class="main">
+    <div class="main-content">
 <div class="row" style="text-align: center">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
                 <h2> Hasil
-                 </h2>
+                </h2>
             </div>
         </div>
     </div>
@@ -45,5 +47,7 @@
       
 
     </div>
+  </div>
+</div>
 @endsection
 
